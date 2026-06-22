@@ -1,6 +1,6 @@
 # Clippy!
 
-Before there were LLMs, there was Clippy. He'll do his absolute best to answer your questions as well as any AI.
+Before there were LLMs, there was Clippy. He'll do his absolute best to answer your questions, just as well as any AI.
 
 This is very stupid and quickly hacked together, so don't expect much beyond a silly joke or two.
 
