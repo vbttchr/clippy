@@ -131,7 +131,7 @@ Would you like help?
                 return
             if self.quit:
                 sys.exit(0)
-            self.play(random.choice(['point_up', 'scratch', 'relax', 'glance', 'look_down'] + ['idle'] * 1))
+            self.play(random.choice(['point_up', 'scratch', 'relax', 'glance', 'look_down'] + ['idle'] * 5))
  
     def link_clicked(self, widget, link):
         if link == '#no':
