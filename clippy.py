@@ -56,7 +56,14 @@ class Clippy(Gtk.Window):
         self.connect('draw', self.draw)
 
         css = """
-label { background-color: #ffffcc; color: #000000; border-radius: 10px; padding: 15px 10px 20px 10px; margin-bottom: 10px; border: 1px solid #000000; }
+label { 
+    background-color: #ffffcc;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: 'Pixelify Sans', sans;
+    border: 1px solid #000000; }
 
 link { color: #003366; }
 """
@@ -74,6 +81,7 @@ link { color: #003366; }
         self.label = Gtk.Label()
         self.label.set_line_wrap(True)
         self.label.set_max_width_chars(25)
+        self.label.set_size_request(200, 360)
         self.label.set_markup("""It looks like you're trying to talk to an LLM.
 
 Would you like help?
